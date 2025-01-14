@@ -59,7 +59,7 @@ a config:
 { "feature": { "env": { "include": "*_URL" } } }
 ```
 
-If the policy is set with `exclude: ["*_URL"]`, then mirror will **NOT** retrieve env vars
+If the policy is set with `exclude: ["*_URL"]`, then mirrord will **NOT** retrieve env vars
 that match `*_URL`, even though the user explicitly wanted that in their config.
 
 If you are not using the latest operator version, the env policy options might be different.
